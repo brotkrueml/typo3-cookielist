@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:cookielist/Resources/Private/Language/locallang.xlf" date="2021-01-14T15:13:52Z">
+		<body>
+			<trans-unit id="duration" resname="duration">
+				<source><![CDATA[Duration]]></source>
+			</trans-unit>
+			<trans-unit id="name" resname="name">
+				<source><![CDATA[Name]]></source>
+			</trans-unit>
+			<trans-unit id="no_cookies" resname="no_cookies">
+				<source><![CDATA[No cookies defined.]]></source>
+			</trans-unit>
+			<trans-unit id="persistent_cookie" resname="persistent_cookie">
+				<source><![CDATA[Persistent cookie]]></source>
+			</trans-unit>
+			<trans-unit id="provider" resname="provider">
+				<source><![CDATA[Provider]]></source>
+			</trans-unit>
+			<trans-unit id="purpose" resname="purpose">
+				<source><![CDATA[Purpose]]></source>
+			</trans-unit>
+			<trans-unit id="session_cookie" resname="session_cookie">
+				<source><![CDATA[Session cookie (deleted after you quit your browser)]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.d.plural" resname="time_unit.d.plural">
+				<source><![CDATA[days]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.d.singular" resname="time_unit.d.singular">
+				<source><![CDATA[day]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.h.plural" resname="time_unit.h.plural">
+				<source><![CDATA[hours]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.h.singular" resname="time_unit.h.singular">
+				<source><![CDATA[hour]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.i.plural" resname="time_unit.i.plural">
+				<source><![CDATA[minutes]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.i.singular" resname="time_unit.i.singular">
+				<source><![CDATA[minute]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.m.plural" resname="time_unit.m.plural">
+				<source><![CDATA[months]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.m.singular" resname="time_unit.m.singular">
+				<source><![CDATA[month]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.y.plural" resname="time_unit.y.plural">
+				<source><![CDATA[years]]></source>
+			</trans-unit>
+			<trans-unit id="time_unit.y.singular" resname="time_unit.y.singular">
+				<source><![CDATA[year]]></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

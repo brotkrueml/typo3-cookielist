@@ -1,0 +1,69 @@
+<html xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+    <f:if condition="{cookies}">
+        <f:then>
+            <f:render section="Cookielist" arguments="{cookies: cookies}"/>
+        </f:then>
+        <f:else>
+            <p><f:translate key="no_cookies"/></p>
+        </f:else>
+    </f:if>
+
+    <f:section name="Cookielist">
+        <f:variable name="previousType"/>
+        <f:for each="{cookies}" as="cookie">
+            <f:if condition="{previousType} != {cookie.type.name}">
+                <h3>{cookie.type.name}</h3>
+                <f:if condition="{cookie.type.description}">
+                    <p>{cookie.type.description}</p>
+                </f:if>
+            </f:if>
+
+            <p>
+                <strong><f:translate key="name"/>:</strong> {cookie.name}<br>
+                <f:if condition="{cookie.purpose}">
+                    <strong><f:translate key="purpose"/>:</strong> {cookie.purpose}<br>
+                </f:if>
+                <f:if condition="{cookie.provider.name}">
+                    <strong><f:translate key="provider"/>:</strong>
+                    <f:if condition="{cookie.provider.link}">
+                        <f:then>
+                            <f:link.typolink parameter="{cookie.provider.link}">{cookie.provider.name}</f:link.typolink>
+                        </f:then>
+                        <f:else>
+                            {cookie.provider.name}
+                        </f:else>
+                    </f:if>
+                    <br>
+                </f:if>
+                <f:if condition="{cookie.ttl} >= 0">
+                    <strong><f:translate key="duration"/>:</strong> <f:render section="Lifetime" arguments="{cookie: cookie}"/>
+                </f:if>
+            </p>
+
+            <f:variable name="previousType" value="{cookie.type.name}"/>
+        </f:for>
+    </f:section>
+
+    <f:section name="Lifetime">
+        <f:if condition="{cookie.ttl}">
+            <f:then>
+                <f:if condition="{cookie.ttl} == '1'">
+                    <f:then>
+                        <f:variable name="grammaticalNumber">singular</f:variable>
+                    </f:then>
+                    <f:else>
+                        <f:variable name="grammaticalNumber">plural</f:variable>
+                    </f:else>
+                </f:if>
+
+                <f:translate key="persistent_cookie"/>,
+                {cookie.ttl} <f:translate key="time_unit.{cookie.ttlUnit}.{grammaticalNumber}"/>
+            </f:then>
+            <f:else>
+                <f:translate key="session_cookie"/>
+            </f:else>
+        </f:if>
+    </f:section>
+
+</html>

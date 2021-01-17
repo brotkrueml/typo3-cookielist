@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:cookielist/Resources/Private/Language/Database.xlf" date="2021-01-14T13:34:40Z">
+		<body>
+			<trans-unit id="palette.lifetime" resname="palette.lifetime">
+				<source><![CDATA[Lifetime]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie" resname="tx_cookielist_domain_model_cookie">
+				<source><![CDATA[Cookie]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.name" resname="tx_cookielist_domain_model_cookie.name">
+				<source><![CDATA[Name]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.provider" resname="tx_cookielist_domain_model_cookie.provider">
+				<source><![CDATA[Provider]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.purpose" resname="tx_cookielist_domain_model_cookie.purpose">
+				<source><![CDATA[Purpose]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.ttl" resname="tx_cookielist_domain_model_cookie.ttl">
+				<source><![CDATA[Storage Time]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.ttl.description" resname="tx_cookielist_domain_model_cookie.ttl.description">
+				<source><![CDATA[If this field has the value 0, the cookie will be a session cookie which is removed when closing the browser. If the value is -1, no information will be display (e.g. if it's not stored in a cookie but in Local Storage).]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.ttl_unit" resname="tx_cookielist_domain_model_cookie.ttl_unit">
+				<source><![CDATA[Unit]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.ttl_unit.description" resname="tx_cookielist_domain_model_cookie.ttl_unit.description">
+				<source><![CDATA[Leave it empty if it is a session cookie.]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_cookie.type" resname="tx_cookielist_domain_model_cookie.type">
+				<source><![CDATA[Type]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_provider" resname="tx_cookielist_domain_model_provider">
+				<source><![CDATA[Provider]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_provider.link" resname="tx_cookielist_domain_model_provider.link">
+				<source><![CDATA[Link to Privacy Policy]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_provider.name" resname="tx_cookielist_domain_model_provider.name">
+				<source><![CDATA[Name]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_type" resname="tx_cookielist_domain_model_type">
+				<source><![CDATA[Type]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_type.description" resname="tx_cookielist_domain_model_type.description">
+				<source><![CDATA[Description]]></source>
+			</trans-unit>
+			<trans-unit id="tx_cookielist_domain_model_type.name" resname="tx_cookielist_domain_model_type.name">
+				<source><![CDATA[Name]]></source>
+			</trans-unit>
+			<trans-unit id="wizards.newContentElement.plugin.description" resname="wizards.newContentElement.plugin.description">
+				<source><![CDATA[Display a list of cookies used by a website]]></source>
+			</trans-unit>
+			<trans-unit id="wizards.newContentElement.plugin.title" resname="wizards.newContentElement.plugin.title">
+				<source><![CDATA[Cookie List]]></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

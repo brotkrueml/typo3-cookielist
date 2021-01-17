@@ -1,0 +1,10 @@
+plugin.tx_cookielist_list {
+    view {
+        # cat=plugin.tx_cookielist_list/file; type=string; label=Path to template root
+        templateRootPath =
+    }
+    persistence {
+        # cat=plugin.tx_cookielist_list//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

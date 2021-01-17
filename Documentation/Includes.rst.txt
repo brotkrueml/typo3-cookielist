@@ -1,0 +1,20 @@
+﻿.. ======================
+.. DEFINE SOME TEXT ROLES
+.. ----------------------
+
+.. role:: html(code)
+.. role:: js(code)
+.. role:: php(code)
+.. role:: typoscript(code)
+.. role:: typescript(code)
+.. role:: shell(code)
+.. role:: sql(code)
+.. role:: yaml(code)
+
+.. role:: ts(typoscript)
+   :class: typoscript
+.. role:: javascript(js)
+   :class: js
+
+.. default-role:: code
+.. highlight:: html

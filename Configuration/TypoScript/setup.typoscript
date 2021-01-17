@@ -1,0 +1,10 @@
+plugin.tx_cookielist_list {
+    view {
+        templateRootPaths.0 = EXT:cookielist/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_cookielist_list.view.templateRootPath}
+    }
+
+    persistence {
+        storagePid = {$plugin.tx_cookielist_list.persistence.storagePid}
+    }
+}
